@@ -19,7 +19,7 @@ import com.fasterxml.jackson.core.JsonToken;
 public class AzureAD {
 
 	private static final Logger LOG = LoggerFactory.getLogger(JcrSysEnvChangeListener.class);
-	private static final String URL ="https://outlook.office.com/webhook/4c62778b-9828-49e4-97e5-6ddf77ba77f5@86194bee-e3f4-49e4-a570-54ed6c5bd46b/IncomingWebhook/66509f1c43c54674842cb8adadf47ecc/f59959c9-b197-4698-b127-6741c35ba01e"; 
+	private static final String URL ="https://outlook.office.com/webhook/"; 
 
 	public String getAccessToken(String tenantId, String clientId, String clientSecret)
 			throws MalformedURLException, IOException {
