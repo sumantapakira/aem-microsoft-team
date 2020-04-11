@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My Site - UI content</comment>
+<entry key="createdBy">zospakir</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-microsoft-team.ui.content</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2020-04-11T19:03:47.314+02:00</entry>
+<entry key="groupId">com.aem.miscosoft</entry>
+<entry key="version">1.1.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.aem.miscosoft:aem-microsoft-team.ui.apps:1.1.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.aem.miscosoft</entry>
+<entry key="description">UI content package for My Site</entry>
+<entry key="artifactId">aem-microsoft-team.ui.content</entry>
+</properties>

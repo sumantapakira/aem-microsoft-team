@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: My Site - UI content
+Content-Package-Roots: /conf/aem-microsoft-team,/content/aem-microsoft
+ -team,/content/dam/aem-microsoft-team,/content/experience-fragments/a
+ em-microsoft-team,/home/users/system/mXlHmvkUZUcumULEPkQV
+Implementation-Version: 1.1.0-SNAPSHOT
+Built-By: zospakir
+Implementation-Vendor-Id: com.aem.miscosoft
+Content-Package-Dependencies: com.aem.miscosoft:aem-microsoft-team.ui.
+ apps:1.1.0-SNAPSHOT
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_211
+Content-Package-Description: UI content package for My Site
+Content-Package-Id: com.aem.miscosoft:aem-microsoft-team.ui.content:1.
+ 1.0-SNAPSHOT
+

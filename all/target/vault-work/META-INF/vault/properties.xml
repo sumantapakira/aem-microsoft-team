@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My Site - All</comment>
+<entry key="createdBy">zospakir</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-microsoft-team.all</entry>
+<entry key="created">2020-04-11T19:03:48.015+02:00</entry>
+<entry key="groupId">com.aem.miscosoft</entry>
+<entry key="version">1.1.0-SNAPSHOT</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.aem.miscosoft</entry>
+<entry key="description">All content package for My Site</entry>
+<entry key="artifactId">aem-microsoft-team.all</entry>
+</properties>

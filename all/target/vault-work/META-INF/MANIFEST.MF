@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: My Site - All
+Content-Package-Roots: /apps/aem-microsoft-team-packages,/apps/aem-mic
+ rosoft-team-vendor-packages
+Implementation-Version: 1.1.0-SNAPSHOT
+Built-By: zospakir
+Implementation-Vendor-Id: com.aem.miscosoft
+Content-Package-Type: application
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_211
+Content-Package-Description: All content package for My Site
+Content-Package-Id: com.aem.miscosoft:aem-microsoft-team.all:1.1.0-SNA
+ PSHOT
+

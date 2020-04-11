@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: My Site - UI apps
+Content-Package-Roots: /apps/aem-microsoft-team
+Implementation-Version: 1.1.0-SNAPSHOT
+Built-By: zospakir
+Implementation-Vendor-Id: com.aem.miscosoft
+Import-Package: com.aem.miscosoft.core.models;version="[1.0.0,2.0.0)",
+ org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Content-Package-Type: application
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_211
+Content-Package-Description: UI apps package for My Site
+Content-Package-Id: com.aem.miscosoft:aem-microsoft-team.ui.apps:1.1.0
+ -SNAPSHOT
+

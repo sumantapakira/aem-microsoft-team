@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.miscosoft.core.listeners.JcrSysEnvChangeListener" immediate="true" activate="activate" deactivate="deactivate">
+  <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" field="repository"/>
+  <reference name="runmode" interface="org.apache.sling.runmode.RunMode" field="runmode"/>
+  <implementation class="com.aem.miscosoft.core.listeners.JcrSysEnvChangeListener"/>
+</scr:component>

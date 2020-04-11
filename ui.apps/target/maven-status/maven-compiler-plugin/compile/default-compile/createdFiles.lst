@@ -1,0 +1,6 @@
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/page/customheaderlibs_html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/xfpage/customfooterlibs_html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/page/customfooterlibs_html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/xfpage/content_html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/helloworld/helloworld_html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__microsoft__002d__team/components/xfpage/customheaderlibs_html.class

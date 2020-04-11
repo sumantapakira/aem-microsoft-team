@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-Category: ${componentGroupName}
+Bundle-Description: Core bundle for My Site
+Bundle-ManifestVersion: 2
+Bundle-Name: AEM Microsoft Team - Core
+Bundle-SymbolicName: aem-microsoft-team.core
+Bundle-Version: 1.1.0.SNAPSHOT
+Export-Package: com.aem.miscosoft.core.listeners;version="1.0";uses:="
+ org.json",com.aem.miscosoft.core.models;version="1.0";uses:="javax.an
+ notation,org.apache.sling.api.resource,org.apache.sling.models.annota
+ tions,org.apache.sling.models.annotations.injectorspecific",com.aem.m
+ iscosoft.core.schedulers;version="1.0",com.aem.miscosoft.core.servlet
+ s;version="1.0";uses:="javax.servlet,org.apache.sling.api,org.apache.
+ sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.aem.miscosoft.cor
+ e.listeners;version="[1.0,2)",com.aem.miscosoft.core.servlets;version
+ ="[1.0,2)",com.day.cq.wcm.api;version="[1.27,2)",com.fasterxml.jackso
+ n.core;version="[2.9,3)",javax.jcr;version="[2.0,3)",javax.jcr.observ
+ ation;version="[2.0,3)",javax.servlet;version="[2.6,3)",org.apache.co
+ mmons.lang;version="[2.6,3)",org.apache.sling.api;version="[2.3,3)",o
+ rg.apache.sling.api.resource;version="[2.11,3)",org.apache.sling.api.
+ servlets;version="[2.2,3)",org.apache.sling.jcr.api;version="[2.4,3)"
+ ,org.apache.sling.models.annotations;version="[1.5,2)",org.apache.sli
+ ng.models.annotations.injectorspecific;version="[1.1,2)",org.apache.s
+ ling.runmode,org.apache.sling.settings;version="[1.3,2)",org.json;ver
+ sion="[20090211.0,20090212)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="javax.servl
+ et.Servlet";uses:="javax.servlet"
+Require-Capability: osgi.service;filter:="(objectClass=org.apache.slin
+ g.jcr.api.SlingRepository)";effective:=active,osgi.service;filter:="(
+ objectClass=org.apache.sling.runmode.RunMode)";effective:=active,osgi
+ .extender;filter:="(&(osgi.extender=osgi.component)(version>=1.4.0)(!
+ (version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))
+ "
+Service-Component: OSGI-INF/com.aem.miscosoft.core.listeners.JcrSysEnv
+ ChangeListener.xml,OSGI-INF/com.aem.miscosoft.core.servlets.SimpleSer
+ vlet.xml
+Sling-Model-Classes: com.aem.miscosoft.core.models.HelloWorldModel
+
