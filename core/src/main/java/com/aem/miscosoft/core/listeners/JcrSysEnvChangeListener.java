@@ -171,9 +171,9 @@ public class JcrSysEnvChangeListener {
                         StringUtils.join(changedProperties, "\n"));
 
                 AzureAD webhook = new AzureAD();
-                String tenantId =   "86194bee-e3f4-49e4-a570-54ed6c5bd46b"; 
-                String clientId =  "60d5ab3e-3a88-47bd-9c14-5cb1f99c1461"; 
-                String clientSecret =  "A]T1y/zy?cWWUbFVb?if1IuiNsVIuN91" ; 
+                String tenantId =   "*******"; 
+                String clientId =  "******"; 
+                String clientSecret =  "******" ; 
                 try {
                 clientSecret = java.net.URLEncoder.encode(clientSecret,"UTF-8");
                 
